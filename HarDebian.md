@@ -16,7 +16,7 @@ sudo certbot --apache -d site.fqdn.tld
 sudo mv /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
 ```
 
-- Modification du ficihier de configuration
+- Modification du fichier de configuration
 ```BASH
 sudo vim /etc/ssh/sshd_config
 ```
